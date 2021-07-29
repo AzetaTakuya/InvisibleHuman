@@ -114,8 +114,8 @@ namespace InvisibleHuman.CaptureFunction
 
                 // Render the joints as lines on the camera's near clip plane.
                 lineRenderer.positionCount = jointCount;
-                lineRenderer.startWidth = 0.001f;
-                lineRenderer.endWidth = 0.001f;
+                lineRenderer.startWidth = 0.003f;
+                lineRenderer.endWidth = 0.003f;
                 for (int i = 0; i < jointCount; ++i)
                 {
                     var position = positions[i];
