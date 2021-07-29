@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scene/SampleScene.unity
-    guid: 309c3d345f76f4847a8470d8b8bcaa0e
+    path: Assets/InvisibleHuman/BodyTracking/Scene/InvisibleHuman_BodyTracking.unity
+    guid: 8bcc7f4975967468ea6a31406aa1d004
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: f8ce26fe3bc69499b9be4b2378e97a94,
       type: 2}
