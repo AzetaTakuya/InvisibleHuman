@@ -28,7 +28,9 @@ namespace InvisibleHuman.BodyTracking
 
             animator.rootPosition = origin.rootPosition;
             animator.rootRotation = origin.rootRotation;
-            this.transform.localScale = origin.transform.lossyScale;
+            this.transform.position = origin.transform.position;
+            this.transform.rotation = origin.transform.rotation;
+            this.transform.localScale = origin.transform.lossyScale * 2;
         }
     }
 
