@@ -72,7 +72,7 @@ namespace InvisibleHuman.CaptureFunction
 
             while (!cancelToken.IsCancellationRequested)
             {
-                await Task.Delay(30);
+                await Task.Delay(10);
 
                 if (RGB_Texture == null || Stencil_Texture == null) continue;
 
